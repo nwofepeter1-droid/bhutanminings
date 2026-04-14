@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0b1220;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* LOGIN */
+#loginScreen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+input {
+  padding: 12px;
+  width: 220px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* HEADER */
+header {
+  padding: 18px;
+  background: #0f172a;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 10px;
+  background: #111827;
+}
+
+nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #22c55e;
+}
+
+/* HERO */
+.hero {
+  padding: 40px 20px;
+  background: radial-gradient(circle, #1d4ed8, #0b1220);
+}
+
+.hero h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  color: #94a3b8;
+}
+
+/* BUTTON */
+button {
+  margin-top: 12px;
+  padding: 12px 18px;
+  background: #22c55e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #16a34a;
+  transform: scale(1.03);
+}
+
+/* DASHBOARD */
+.dashboard {
+  padding: 25px 15px;
+}
+
+.balance-box {
+  background: #1e293b;
+  padding: 18px;
+  width: 220px;
+  margin: 20px auto;
+  border-radius: 12px;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.2);
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 25px 10px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 18px;
+  width: 170px;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+
+/* CHAT BUTTON */
+.chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #22c55e;
+  padding: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  padding: 18px;
+  background: #0f172a;
+  color: #94a3b8;
+  margin-top: 20px;
+}
