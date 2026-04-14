@@ -78,8 +78,8 @@ This project is for educational purposes only. It does not provide financial adv
 
 ## 👤 Author
 Your Name  
-- GitHub: https://github.com/YOUR_USERNAME  
-- Email: your@email.com  
+- GitHub: https://github.com/peter  
+- Email: nwofepeter1@gmail.com  
 
 ---
 
